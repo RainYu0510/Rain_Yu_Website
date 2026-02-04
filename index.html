@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rain Yu - Blog</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" type="image/png" href="./image/空洞騎士照片.png">
+</head>
+<body class="bg-green-50 font-serif flex flex-col min-h-screen">
+    <header class="border-b border-gray-300">
+        <div class="flex items-center px-6 py-4 max-w-7xl mx-auto gap-0.5">
+            <div class="flex justify-center gap-2 px-20">
+                <a href="#" class="flex items-center gap-2">
+                    <img class="h-8 w-8 rounded-full object-cover" src="./image/空洞騎士照片.png" alt="Logo">
+                    <h1 class="m-0 text-xl">Rain Yu</h1>
+                </a>
+            </div>
+            <div>
+                <nav>
+                    <ul class="flex item-center gap-6 text-slate-700">
+                        <li><a href="about.html" class="hover:text-green-600 transition-colors">About</a></li>
+                        <li><a href="#" class="hover:text-green-600 transition-colors">Projects</a></li>
+                        <li><a href="#" class="hover:text-green-600 transition-colors" >Links</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div> 
+    </header>
+    <main class="flex items-center justify-center flex-1 px-6 py-12">
+        <!-- 外層容器：左右兩欄 -->
+        <div class="flex items-center gap-12 max-w-7xl w-full">
+          <!-- 左邊：圖片 -->
+          <div class="flex justify-center">
+            <div 
+              class="w-80 h-80 rounded-full border-4 border-white shadow-lg bg-cover bg-center"
+              style="background-image: url('./image/空洞騎士照片.png');"
+            ></div>
+          </div>
+      
+          <!-- 右邊：自我介紹 -->
+          <div class="space-y-4">
+            <h2 class="text-5xl font-bold">Rain Yu</h2>
+            <p class="text-lg text-slate-700">
+                I am a Computer Science student at Tatung University with a strong curiosity for new things. My main interests are artificial intelligence and web development, and my life revolves around code and music.
+              </p>
+              <p class="text-lg text-slate-700">
+                I currently serve as the CIO of the Tatung University Science Open Source Service Club and work as a teaching assistant for programming-related courses. While challenging, I enjoy learning and growing through these experiences.
+              </p>
+            <div class="flex items-center justify-end gap-6 text-4xl text-slate-700 pt-2">
+              <!-- Instagram -->
+              <a href="https://www.instagram.com/rainyu_05_10" target="_blank" class="hover:text-gray-500 transition-colors">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <!-- GitHub -->
+              <a href="https://github.com/RainYu0510" target="_blank" class="hover:text-gray-500 transition-colors">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <!-- HackMD -->
+              <a href="https://hackmd.io/@RainYu0510" target="_blank" class="hover:opacity-70 transition-opacity">                     
+                <i class="fa-regular fa-file-lines"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="border-t border-gray-300 mt-auto py-6">
+        <div class="max-w-7xl mx-auto px-6">
+          <div class="flex flex-col md:flex-row justify-center items-center gap-4 text-sm text-slate-600">
+            <p>&copy; 2026 Rain Yu. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>

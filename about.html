@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rain Yu - Blog</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" type="image/png" href="./image/空洞騎士照片.png">
+</head>
+<body class="bg-green-50 font-serif flex flex-col min-h-screen">
+    <header class="border-b border-gray-300">
+        <div class="flex items-center px-6 py-4 max-w-7xl mx-auto gap-0.5">
+            <div class="flex justify-center gap-2 px-20">
+                <a href="index.html" class="flex items-center gap-2">
+                    <img class="h-8 w-8 rounded-full object-cover" src="./image/空洞騎士照片.png" alt="Logo">
+                    <h1 class="m-0 text-xl">Rain Yu</h1>
+                </a>
+            </div>
+            <div>
+                <nav>
+                    <ul class="flex item-center gap-6 text-slate-700">
+                        <li><a href="about.html" class="hover:text-green-600 transition-colors">About</a></li>
+                        <li><a href="#" class="hover:text-green-600 transition-colors">Projects</a></li>
+                        <li><a href="#" class="hover:text-green-600 transition-colors" >Links</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div> 
+    </header>
+    <main class="flex-1 px-6 py-12">
+        <div class="flex justify-center">
+            <div class="flex items-center gap-12 max-w-7xl">
+                <!-- 左邊：圖片 -->
+                <div class="flex-shrink-0">
+                    <img 
+                        class="w-64 h-64 md:w-80 md:h-80 rounded-md object-cover " 
+                        src="./image/我的照片.jpeg"
+                        alt="Rain Yu"
+                    >
+                </div>
+                <!-- 右邊：介紹 -->
+                <div class="space-y-4">
+                    <h1 class="text-4xl md:text-5xl font-bold">Rain Yu</h1>
+                    <h3 class="text-lg font-bold text-slate-700">student</h3>
+                    <p class="text-lg text-slate-700">
+                        I am a CS student at Tatung University with a strong curiosity for new things. My main interests are artificial intelligence and web development, and my life revolves around code and music.
+                    </p>
+                    <p class="text-lg text-slate-700">
+                        I currently serve as the CIO of the Tatung University Science Open Source Service Club and work as a teaching assistant for programming-related courses. While challenging, I enjoy learning and growing through these experiences.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+                <!-- Education 區塊 -->
+                <div class="flex justify-center mt-16">
+                    <div class="max-w-7xl w-full">
+                        <!-- 標題 -->
+                        <div class="mb-8">
+                            <div class="flex items-center gap-3 mb-2">
+                                <i class="fa-solid fa-graduation-cap text-green-600 text-xl"></i>
+                                <h2 class="text-3xl font-bold text-slate-800">Education</h2>
+                            </div>
+                            <div class="h-1 w-20 bg-green-600"></div>
+                        </div>
+        
+                        <!-- 教育經歷 -->
+                        <div class="space-y-6">
+                            <!-- 第一項 -->
+                            <div class="relative">
+                                <div class="flex justify-between items-start">
+                                    <div class="flex-1">
+                                        <h3 class="text-xl font-bold text-slate-800 mb-1">Tatung University</h3>
+                                        <div class="ml-4 space-y-1 text-slate-700">
+                                            <p class="text-lg">Department of Information Engineering and Computer Science</p>
+                                            <p class="text-lg">Bachelor's degree</p>
+                                        </div>
+                                    </div>
+                                    <span class="text-slate-600 text-lg whitespace-nowrap ml-4">2024 - Present</span>
+                                </div>
+                            </div>            
+                        </div>
+                    </div>
+                </div>
+            </main>
+</body>
